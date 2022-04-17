@@ -7,3 +7,6 @@ body{
 .mysterious{
     font-size: 25px;
 }
+.header-name span{
+    color: orangered;
+}
