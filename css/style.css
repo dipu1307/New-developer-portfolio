@@ -17,14 +17,29 @@ section{
 .header-name span{
     color: orangered;
 }
-.half-width img{
-    width: 80%;
+
+.half-width h6{
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 30px;
+}
+.half-width h3{
+    color: cadetblue;
+}
+.half-width p{
+    text-align: justify;
 }
 .half-width a{
+    font-size: 20px;
     text-decoration: none;
     background-image: linear-gradient(orange, coral);
     color: white;
     font-weight: 900;
     padding: 10px 40px;
     border-radius: 5px;
+    display: inline-block;
 }
+.half-width img {
+    width: 80%;
+    margin-top: 20%;
+    }
