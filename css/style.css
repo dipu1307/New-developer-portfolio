@@ -4,6 +4,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
@@ -39,7 +40,9 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
     display: inline-block;
+    
 }
+    
 .half-width img {
     width: 80%;
     margin-top: 20%;
@@ -47,5 +50,26 @@ section{
 .top-position{
     background-image: url(../images/background1.jpg);
     background-repeat: no-repeat;
+    
+}
+.header-2{
+    
+    font-size: 40px;
+    color: brown;
+}
+.working-info .half-width{
+    width: 50%;
+    padding-right: 2%;
+}
+.working-info .half-width img{
+    width: 80%;
+    margin-top: 0;
+}
+.working-info{
+    background-image: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
     
 }
